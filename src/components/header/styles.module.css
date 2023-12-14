@@ -1,0 +1,15 @@
+.link {
+    text-decoration: none;
+    color: black;
+
+    transition: color 0.2s;
+}
+
+.link:not(:last-child) {
+    margin-right: 5px;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+}
